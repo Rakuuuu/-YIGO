@@ -1,0 +1,192 @@
+/*#bottom-info{*/
+/*    width: 100%;*/
+/*    height:75px;*/
+/*    background-color: whitesmoke;*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    -webkit-transition-duration: 0.4s; !* Safari *!*/
+/*    transition-duration: 0.4s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#bottom-info:hover{*/
+/*    background-color: white;*/
+/*}*/
+
+/*#bottom-info p{*/
+/*    width: 100%;*/
+/*    font-size: 8px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    text-align: center;*/
+/*    left:50%;*/
+/*    top:50%;*/
+/*    transform: translate(-50%,-50%);*/
+/*}*/
+
+.login-window{
+    position: relative;
+    max-width: 400px;
+    width: 90%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,0%);
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.login-title{
+    position: relative;
+    text-align: center;
+    padding:30px 0;
+}
+
+#login{
+    padding: 20px 60px;
+}
+
+#login-button{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#no-account{
+    text-align: center;
+}
+
+#regist-form{
+    position: relative;
+    max-width: 400px;
+    width: 90%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,0%);
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+#regist-form form{
+    padding:30px 60px;
+}
+
+#regist-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.all-goods{
+    padding: 10px 20px;
+    position: relative;
+    /*background-color: purple;*/
+    align-items: center;
+}
+
+.good-card{
+    margin: 40px 5px;
+    padding: 20px;
+    align-items: center;
+    display: block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.title{
+    margin-top: 50px;
+    width: 100%;
+    /*background-color: purple;*/
+    text-align: center;
+    font-size: 48px;
+    text-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.shopping-cast{
+    margin-top: 40px;
+    /*background-color: purple;*/
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.shopping-cast table{
+    width: 1200px;
+    position: relative;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.good-in-cast{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.good-photo img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.good-photo{
+    /*background-color: purple;*/
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.good-info{
+    width: 400px;
+    /*background-color: yellow;*/
+    display: block;
+    height: 100px;
+    position: relative;
+    text-align: left;
+    left: 20px;
+}
+
+.good-info p{
+    word-break: break-all;
+    word-wrap:break-word;
+    display: flow;
+}
+
+.bottom-bar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255, 0.9);
+    display: inline-flex;
+}
+
+.count{
+    line-height: 60px;
+    padding: 0 40px;
+    display: block;
+    width: 30%;
+    /*background-color: yellow;*/
+}
+
+.button-group{
+    padding: 0 20px;
+    line-height: 60px;
+    display: block;
+    right: 0;
+    position: relative;
+    width: 70%;
+    /*background-color: greenyellow;*/
+    text-align: right;
+}
+
+.button-group button{
+    margin: 0 5px;
+}
+
+.pay-button{
+    display: flex;
+    margin: 10px 10px;
+}
